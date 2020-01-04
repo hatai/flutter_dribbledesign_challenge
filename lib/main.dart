@@ -1,5 +1,7 @@
 import 'package:dribbble_challenge/challenge0/screens/payment_screen.dart';
 import 'package:dribbble_challenge/challenge1/screens/challenge_one_screen.dart';
+import 'package:dribbble_challenge/challenge2/screens/challenge_two_screen.dart';
+import 'package:dribbble_challenge/challenge3/screens/challenge_three_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -20,8 +22,8 @@ class MyApp extends StatelessWidget {
         '/': (context) => MyHomePage(),
         '/challenge0': (context) => PaymentScreen(),
         '/challenge1': (context) => ChallengeOneScreen(),
-        '/challenge2': (context) => MyHomePage(),
-        '/challenge3': (context) => MyHomePage()
+        '/challenge2': (context) => ChallengeTwoScreen(),
+        '/challenge3': (context) => ChallengeThreeScreen()
       },
     );
   }
